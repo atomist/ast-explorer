@@ -10,7 +10,13 @@ import { TreeNode } from "@atomist/tree-path";
 import express from "express";
 import stringify from "json-stringify-safe";
 import { AddressInfo } from "net";
-import { DataToParse, ErrorResponse, KnownErrorLocation, ParseResponse, ParserSpec } from "./app/TreeParseGUIState";
+import {
+    DataToParse,
+    ErrorResponse,
+    KnownErrorLocation,
+    ParseResponse,
+    ParserSpec,
+} from "./app/TreeParseGUIState";
 import pj from "./package.json";
 
 // do things right
