@@ -104,13 +104,10 @@ export class TreeParseGUI extends React.Component<{},
       <div className="gooeyOutside">
         <TalkOutLoud everything={this.state} ></TalkOutLoud>
         <AppBar color="secondary" style={this.styles.header}>
-          <Typography
-            variant="title"
-
-          >
+          <Typography variant="title">
             Parse My Code!
           </Typography>
-          <img src="https://atomist.com/img/Atomist-Logo-White-Horiz.png" style={{ width: "15%", height: "50%" }}></img>
+          <img src="https://images.atomist.com/logo/atomist-white-mark-transparent-small.png" height="25" width="25"></img>
         </AppBar>
         <div style={{ display: "flex" }}>
           <div className="code-view">
